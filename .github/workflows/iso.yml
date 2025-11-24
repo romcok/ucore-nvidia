@@ -14,7 +14,7 @@ jobs:
       fail-fast: false
     steps:
       - name: Build ISOs
-        uses: jasonn3/build-container-installer@v1.2.4
+        uses: jasonn3/build-container-installer@main
         with:
           image_name: ucore-minimal-nvidia
           image_repo: ghcr.io/romcok
