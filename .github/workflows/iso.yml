@@ -19,7 +19,7 @@ jobs:
           image_name: ucore-minimal-nvidia
           image_repo: ghcr.io/romcok
           variant: 'CoreOS'
-          version: 41
+          version: latest
           iso_name: ucore-minimal-nvidia-installer.iso
           
       - name: Upload ISO as artifact
