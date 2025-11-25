@@ -26,7 +26,7 @@ jobs:
       - name: Upload ISO as artifact
         uses: actions/upload-artifact@v4
         with:
-          name: pinfera-iso
+          name: ucore-minimal-nvidia-iso
           path: |
             *.iso
             *-CHECKSUM
